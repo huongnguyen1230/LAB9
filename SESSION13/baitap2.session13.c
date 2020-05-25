@@ -5,24 +5,24 @@
 
 int main(int argc, char *argv[]) {
 	
-	char tenconvat[10][50];
-	char *ptr[50];
+	char tenconvat[2][50];
+	char *ptr[2];
 	
 	int i;
-	for(i=0;i<soluong;i++)
+	for(i=0;i<2;i++)
 	{
 		printf("Nhap vao ten con thu %d: ",i+1);
 		gets(tenconvat[i]);
 	
 		char* temp;
-		temp=(char*)malloc(dodaichuoi*sizeof(char));
+		temp=(char*)malloc(50*sizeof(char));
 		strcpy(temp,"s");
 		strcat(tenconvat[i],temp);
 		
 		ptr[i]=tenconvat[i];
 	}
 		printf ("ten o dang so nhieu: \n");
-	for(i=0;i<soluong;i++)
+	for(i=0;i<2;i++)
 	{
 	    printf("\n%s",*(ptr+i));
 	}
