@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 
   int main()
 {
-    char name[30] = "Nguyen Van Hieu";
+    char name[30] = "Nguyen Huong";
  
     printf("Truoc khi dao nguoc : %s\n", name);
  
