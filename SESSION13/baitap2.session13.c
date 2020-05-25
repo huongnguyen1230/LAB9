@@ -4,11 +4,9 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-
-	int const soluong=2;
-	int const dodaichuoi=50;
-	char tenconvat[soluong][dodaichuoi];
-	char *ptr[soluong];
+	
+	char tenconvat[10][50];
+	char *ptr[50];
 	
 	int i;
 	for(i=0;i<soluong;i++)
